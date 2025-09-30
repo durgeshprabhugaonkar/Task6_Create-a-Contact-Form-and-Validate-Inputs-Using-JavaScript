@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <h1 class="logo">DURGESH PRABHUGAONKAR</h1>
+      
+      <!-- Hamburger button -->
+      <button class="menu-toggle">☰</button>
+      
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#contactForm">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h2>Welcome To Contact Form</h2>
+      <p>Responsive and clean design using only HTML,CSS & JS.</p>
+      <a href="#" class="btn">Get Started</a>
+    </div>
+  </section>
+
+  <!-- Contact Form Section -->
+  <section class="contact">
+    <div class="form-container">
+      <h2>Contact Us</h2>
+      <form id="contactForm" novalidate>
+        <!-- Name -->
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" placeholder="Enter your name">
+          <small class="error"></small>
+        </div>
+
+        <!-- Email -->
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="text" id="email" placeholder="Enter your email">
+          <small class="error"></small>
+        </div>
+
+        <!-- Message -->
+        <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea id="message" rows="5" placeholder="Type your message"></textarea>
+          <small class="error"></small>
+        </div>
+
+        <button type="submit">Submit</button>
+        <p id="successMsg" class="success"></p>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Durgesh Prabhugaonkar. All rights reserved.</p>
+    <div class="social">
+      <a href="#">🌐</a>
+      <a href="#">🐦</a>
+      <a href="#">📘</a>
+    </div>
+  </footer>
+
+  <!-- Link to the external JavaScript file -->
+  <script src="script.js"></script>
+</body>
+</html>
